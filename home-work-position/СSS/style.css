@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'ArvoBold';
+    src: url('../fonts/ArvoBold.eot');
+    src: url('../fonts/ArvoBold.eot') format('embedded-opentype'),
+    url('../fonts/ArvoBold.woff2') format('woff2'),
+    url('../fonts/ArvoBold.woff') format('woff'),
+    url('../fonts/ArvoBold.ttf') format('truetype'),
+    url('../fonts/ArvoBold.svg#ArvoBold') format('svg');
+}
+@font-face {
+    font-family: 'ArvoRegular';
+    src: url('../fonts/ArvoRegular.eot');
+    src: url('../fonts/ArvoRegular.eot') format('embedded-opentype'),
+    url('../fonts/ArvoRegular.woff2') format('woff2'),
+    url('../fonts/ArvoRegular.woff') format('woff'),
+    url('../fonts/ArvoRegular.ttf') format('truetype'),
+    url('../fonts/ArvoRegular.svg#ArvoRegular') format('svg');
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    background-image: url('../images/background_img.jpg');
+    background-size: cover;
+    z-index: 1;
+    border-top: solid 40px #af2024;
+   }
+
+
+.container{
+    max-width: 960px;
+    margin:  auto;
+}
+.logo{
+    margin: 19px 0 21px;
+}
+.central_container{
+    max-width: 710px;
+    font: 20px 'ArvoBold';
+    color: white;
+    background-color: #98161b;
+    margin: auto;
+    padding: 27px 0 29px 19px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.container_white{
+    max-width: 710px;
+    background-color: white;
+    margin: auto;
+    padding: 63px 69px 128px 74px;
+    box-sizing: border-box;
+}
+
+.player{
+    background-color: #e7e7e7;
+    height: 346px;
+    max-width: 567px;
+    margin: auto;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+.play{
+    max-width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 50px solid #af2024;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+h1{
+    font: 13px 'ArvoBold';
+    color:#98161b;
+    line-height: 30px;
+    box-sizing: border-box;
+
+}
+p{
+    font: 13px 'Arvo';
+    color: #7d7d7d;
+    display: inline-block;
+    box-sizing: border-box;
+}
+h2{
+    font: 13px 'Arvo';
+    color: #98161b;
+    box-sizing: border-box;
+}
+p1{
+    font: 12px 'Arvo';
+    color:#98161b;
+    line-height: 12px;
+
+}
+footer{
+    background-color: black;
+    max-width: 100%;
+    height: 454px;
+}
+.line{
+    border-bottom: solid 33px #98161b;
+    max-width: 100%;
+
+}
